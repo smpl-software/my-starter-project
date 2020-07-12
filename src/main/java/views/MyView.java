@@ -12,7 +12,7 @@ import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
  * does not overwrite or otherwise change this file.
  */
 @Tag("my-view")
-@JsModule("./my-view.js")
+@JsModule("./src/views/my-view.js")
 public class MyView extends PolymerTemplate<MyView.MyViewModel> {
 
     /**
